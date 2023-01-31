@@ -5,4 +5,4 @@
   tasks:
     - name: change hostname
       hostname:
-        name: My Hostname
+        name: node-1
