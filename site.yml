@@ -1,0 +1,8 @@
+---
+- name: Ansible Playbook Test
+  hosts: all
+  become: yes
+  tasks:
+    - name: change hostname
+      hostname:
+        name: My Hostname
